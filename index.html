@@ -180,14 +180,15 @@
                         <option value="casse-tête">casse</option>
                     </select>
                 </div>
+                <!--Voir pour formaulaire de fichier et non de text-->
                 <div>
                     <label for="screenshot">Screenshot du dysfonctionnement:</label>
-                    <input type="text" name="screenshot" id="screenshot" placeholder="Screenshot du dysfonctionnement">
+                    <input type="file" name="screenshot" id="screenshot" accept="image/png, image/webp">
                     <button type="submit">envoyer</button>
                 </div>
                 <div>
                     <label for="video">Vidéo du dysfonctionnement:</label>
-                    <input type="text" name="video" id="video" placeholder="vidéo du dysfonctionnement">
+                    <input type="file" name="video" id="video" accept="video/mp4">
                     <button type="submit">envoyer</button>
                 </div>
                 <button type="submit">Soumettre le dysfonctionnement à l'équipe de modération</button>
