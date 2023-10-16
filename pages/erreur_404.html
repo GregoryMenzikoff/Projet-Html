@@ -10,14 +10,17 @@
 <body>
     <header>
         <nav>
-            <img src="/favicon.svg" alt="logo du site">
-            <a href="/pages/toutes_les_tomates.html">Toutes les tomates</a>
-            <a href="/index.html">Dénoncer</a>
-            <form action="#">
+            <a href="/index.html"><img src="/favicon.svg" alt="Lien vers la page d'acceuil"></a>
+            <ul>
+                <li><a href="/pages/toutes_les_tomates.html">Toutes les tomates</a></li>
+                <li><a href="#Dénoncer-un-site-inaccessible">Dénoncer</a></li>
+            </ul>    
+            <form action="#" method="get">
                 <label for="search"></label>
                 <input type="search" name="search" id="search" placeholder="Rechercher...">
             </form>
-            <!--En attente de JS pour le changement d'image en fonction de l'état de connexion-->
+             <!--Revoir la couleur du logo-->
+            <!--En attente de JS pour le changement d'image en fonction de l'état de connexion--> 
             <div>
                 <img src="/documents/images/not_logged.png" alt="Non connecté">
             </div>

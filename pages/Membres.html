@@ -10,20 +10,48 @@
 <body>
     <header>
         <nav>
-            <img src="/favicon.svg" alt="logo du site">
-            <a href="/pages/toutes_les_tomates.html">Toutes les tomates</a>
-            <a href="/index.html">Dénoncer</a>
-            <form action="#">
+            <a href="/index.html"><img src="/favicon.svg" alt="Lien vers la page d'acceuil"></a>
+            <ul>
+                <li><a href="/pages/toutes_les_tomates.html">Toutes les tomates</a></li>
+                <li><a href="#Dénoncer-un-site-inaccessible">Dénoncer</a></li>
+            </ul>    
+            <form action="#" method="get">
                 <label for="search"></label>
                 <input type="search" name="search" id="search" placeholder="Rechercher...">
             </form>
-            <!--En attente de JS pour le changement d'image en fonction de l'état de connexion-->
+             <!--Revoir la couleur du logo-->
+            <!--En attente de JS pour le changement d'image en fonction de l'état de connexion--> 
             <div>
                 <img src="/documents/images/not_logged.png" alt="Non connecté">
             </div>
         </nav>
     </header>
-    <main></main>
+    <main>
+        <h1>Page membre - PseudoMembre</h1>
+        <section>
+            <div>
+                <button type="button"><img src="" alt=""></button>
+            </div>
+            <h2>PseudoMembre</h2>
+            <p>Membre depuis le xx/xx/xxxx</p>
+        </section>
+        <section>
+            <h3>Sites tomatés</h3>
+            <ul>
+                <li>Doctolib</li>
+                <li>Fnac</li>
+                <li>SNCF</li>
+            </ul>
+            <h3>Sites tomatés</h3>
+            <ul>
+                <li>Doctolib</li>
+                <li>Fnac</li>
+                <li>SNCF</li>
+                <li>Craiglist</li>
+                <li>Yale school of art</li>
+            </ul>    
+        </section>
+    </main>
     <footer>
         <nav>
             <a href="/pages/Plan_du_site.html">Plan du site</a>
