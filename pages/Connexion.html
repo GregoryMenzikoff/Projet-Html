@@ -3,27 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <title>PilOri</title>
+    <meta name="description" content="Connectez-vous !">
+    <title>Connexion - PilOri</title>
     <link rel="shortcut icon" href="/favicon.svg" type="image/x-icon">
 </head>
 <body>
     <header>
         <nav>
-            <img src="/favicon.svg" alt="logo du site">
-            <a href="/pages/toutes_les_tomates.html">Toutes les tomates</a>
-            <a href="/index.html">Dénoncer</a>
-            <form action="#">
+            <a href="/index.html"><img src="/favicon.svg" alt="Lien vers la page d'acceuil"></a>
+            <ul>
+                <li><a href="/pages/toutes_les_tomates.html">Toutes les tomates</a></li>
+                <li><a href="#Dénoncer-un-site-inaccessible">Dénoncer</a></li>
+            </ul>    
+            <form action="#" method="get">
                 <label for="search"></label>
                 <input type="search" name="search" id="search" placeholder="Rechercher...">
             </form>
-            <!--En attente de JS pour le changement d'image en fonction de l'état de connexion-->
+             <!--Revoir la couleur du logo-->
+            <!--En attente de JS pour le changement d'image en fonction de l'état de connexion--> 
             <div>
                 <img src="/documents/images/not_logged.png" alt="Non connecté">
             </div>
         </nav>
     </header>
-    <main></main>
+    <main>
+        <h1>Connexion</h1>
+        <form action="#" method="post">
+            <div>
+                <label for="pseudo">Pseudonyme</label>
+                <input type="text" name="pseudo" id="pseudo" placeholder="Votre pseudo" required>
+            </div>
+            <div>
+                <label for="password">mot de passe</label>
+                <input type="password" name="password" id="password" placeholder="Votre mot de passe" required>
+            </div>
+            <button type="submit">Connexion</button>
+        </form>
+            <nav>
+                <a href="/pages/Inscription.html">Je n'ai pas de compte</a>
+            </nav>  
+    </main>
     <footer>
         <nav>
             <a href="/pages/Plan_du_site.html">Plan du site</a>
